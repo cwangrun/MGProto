@@ -62,7 +62,7 @@ where in-distribution data (a) has high _**p**_(**x**) while out-of-distribution
 
 
 <div align=center>
-<img width="830" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
+<img width="800" height="235" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
 </div>
 
 
