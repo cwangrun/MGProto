@@ -61,7 +61,7 @@ where in-distribution data (a) yields high _**p**_(**x**) while out-of-distribut
 
 Prototypes with large prior, which dominate the decision making, are always from high-density distribution regions (in T-SNE) and can localise well the object (bird) parts.
 Background prototypes tend to obtain a low prior and come from the low-density distribution regions. 
-This observation is utilised for model compression by pruning the prototypes that hold low prior/importance.
+This observation is used for model compression by pruning the prototypes that hold low prior/importance.
 
 <div align=center>
 <img width="830" height="235" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
