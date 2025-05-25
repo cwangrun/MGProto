@@ -20,14 +20,14 @@ thereby allowing both interpretable image classification and trustworthy recogni
 Interesting, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation.
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/method.png"/></dev>
+<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
 </div>
 
 Additionally, we also present a new and generic prototype mining strategy to enhance prototype learning by mining prototypes
 from abundant less-salient object regions, inspired by the ancient legend of Tian Ji’s horse-racing.
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/mine.png"/></dev>
+<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
@@ -54,7 +54,7 @@ This is achieved by computing the overall data probability _**p**_(_**x**_),
 where in-distribution data (a) has high _**p**_(_**x**_) while out-of-distribution input (b) has low _**p**_(_**x**_).
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/reasoning.png"/></dev>
+<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
 </div>
 
 
@@ -62,7 +62,7 @@ where in-distribution data (a) has high _**p**_(_**x**_) while out-of-distributi
 
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/visual.png"/></dev>
+<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
 </div>
 
 
