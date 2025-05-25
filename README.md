@@ -1,6 +1,6 @@
 # Mixture of Gaussian-distributed Prototypes with Generative Modelling for Interpretable and Trustworthy Image Recognition
 
-This repository is for the paper "[IMixture of Gaussian-distributed Prototypes with Generative Modelling for Interpretable and Trustworthy Image Recognition](https://ieeexplore.ieee.org/document/10982376)", published at IEEE TPAMI 2025.
+This repository is for Pytorch implementation of the paper "[IMixture of Gaussian-distributed Prototypes with Generative Modelling for Interpretable and Trustworthy Image Recognition](https://ieeexplore.ieee.org/document/10982376)", published at IEEE TPAMI 2025.
 
 This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet)
 
