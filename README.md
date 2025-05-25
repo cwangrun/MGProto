@@ -20,7 +20,7 @@ thereby allowing both interpretable image classification and trustworthy recogni
 Interesting, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation.
 
 <div align=center>
-<img width="800" height="345" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
+<img width="830" height="350" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
 </div>
 
 Additionally, we also present a new and generic prototype mining strategy to enhance prototype learning by mining prototypes
