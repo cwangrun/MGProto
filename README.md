@@ -27,7 +27,7 @@ Additionally, inspired by the ancient legend of Tian Ji’s horse-racing,
 we also present a new and generic prototype mining strategy to enhance prototype learning from abundant less-salient object regions.
 
 <div align=center>
-<img width="470" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
+<img width="460" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
@@ -49,9 +49,9 @@ we also present a new and generic prototype mining strategy to enhance prototype
 
 ### Interpretation with OoD detection
 
-The repository provides online or offline evaluation for interpretable image classification and trustworthy recognition of OoD input. 
-This is achieved by computing the overall data probability _**p**_(_**x**_), 
-where in-distribution data (a) has high _**p**_(**x**) while out-of-distribution input (b) has low _**p**_(**x**).
+The repository supports online or offline evaluation for interpretable image classification and trustworthy recognition of OoD input. 
+This is achieved by computing the overall data probability _**p**_(**x**), 
+where in-distribution data (a) yields high _**p**_(**x**) while out-of-distribution input (b) has low _**p**_(**x**).
 
 <div align=center>
 <img width="830" height="285" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
