@@ -27,7 +27,7 @@ Additionally, we also present a new and generic prototype mining strategy to enh
 from abundant less-salient object regions, inspired by the ancient legend of Tian Ji’s horse-racing.
 
 <div align=center>
-<img width="500" height="330" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
+<img width="500" height="310" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
@@ -51,7 +51,7 @@ from abundant less-salient object regions, inspired by the ancient legend of Tia
 
 Online or offline evaluation for interpretable image classification and trustworthy recognition of OoD input. 
 This is achieved by computing the overall data probability _**p**_(_**x**_), 
-where in-distribution data (a) has high _**p**_(_**x**_) while out-of-distribution input (b) has low _**p**_(_**x**_).
+where in-distribution data (a) has high _**p**_(**x**) while out-of-distribution input (b) has low _**p**_(**x**).
 
 <div align=center>
 <img width="830" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
