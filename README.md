@@ -2,7 +2,7 @@
 
 This is Pytorch implementation of the paper "[IMixture of Gaussian-distributed Prototypes with Generative Modelling for Interpretable and Trustworthy Image Recognition](https://ieeexplore.ieee.org/document/10982376)", published at IEEE TPAMI 2025.
 
-This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet)
+This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet).
 
 <div align=center>
 <img width="500" height="315" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
@@ -10,10 +10,9 @@ This code repository was based on ProtoPNet (https://github.com/cfchen-duke/Prot
 
 **Introduction:** 
 Prototypical-part methods (a), such as ProtoPNet, enhance interpretability in image recognition by linking predictions to training prototypes. 
-They rely on a point-based learning of prototypes, which have limited representation power and are not suitable to detect Out-of-Distribution (OoD) inputs, 
-reducing their decision trustworthiness. 
-The point-based learning of prototypes is also unstable and often causes performance drop in the prototype projection step. 
-In this work, we present a new generative paradigm to learn prototype distributions (b), termed as Mixture of Gaussian-distributed Prototypes (MGProto).
+They rely on a point-based learning of prototypes, which limits representation power, struggles with Out-of-Distribution (OoD) detection, 
+and causes unstable performance in prototype projection.
+We propose a generative alternative—**Mixture of Gaussian-distributed Prototypes (MGProto)**—to model prototype distributions (b) and address these limitations.
 
 **Methodology:** In MGProto, we leverage the Gaussian-distributed prototypes to explicitly characterise the underlying data density,
 thereby allowing both interpretable image classification and trustworthy recognition of OoD inputs. 
