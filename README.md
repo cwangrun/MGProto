@@ -44,7 +44,7 @@ we also present a new and generic prototype mining strategy to enhance prototype
 ### Train and test the model
 
 1. Provide data in `data_path, train_dir, test_dir, train_push_dir` in `settings.py`
-2. Run `python main.py`, our pre-trained CUB models are given [here]().
+2. Run `python main.py`, our pre-trained CUB models are given [here](https://drive.google.com/drive/folders/1RzxJ1bGj4PjcYGS78e_huQzfvVjzhusf?usp=sharing).
 
 ### Interpretation with OoD detection
 
