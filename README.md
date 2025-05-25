@@ -15,7 +15,7 @@ reducing their decision trustworthiness;
 The point-based learning of prototypes is also unstable and often causes performance degradation in the prototype projection step. 
 In this work, we present a new generative paradigm to learn prototype distributions (b), termed as Mixture of Gaussian-distributed Prototypes (MGProto).
 
-**Methodology:** In MGProto, we leverage the Gaussian-distributed prototypes to explicitly in to characterise the data density,
+**Methodology:** In MGProto, we leverage the Gaussian-distributed prototypes to explicitly characterise the underlying data density,
 thereby allowing both interpretable image classification and trustworthy recognition of OoD inputs. 
 Interesting, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation.
 
@@ -27,7 +27,7 @@ Additionally, we also present a new and generic prototype mining strategy to enh
 from abundant less-salient object regions, inspired by the ancient legend of Tian Ji’s horse-racing.
 
 <div align=center>
-<img width="500" height="345" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
+<img width="500" height="330" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
@@ -54,7 +54,7 @@ This is achieved by computing the overall data probability _**p**_(_**x**_),
 where in-distribution data (a) has high _**p**_(_**x**_) while out-of-distribution input (b) has low _**p**_(_**x**_).
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
+<img width="830" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
 </div>
 
 
@@ -62,7 +62,7 @@ where in-distribution data (a) has high _**p**_(_**x**_) while out-of-distributi
 
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
+<img width="830" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
 </div>
 
 
