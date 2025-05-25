@@ -5,7 +5,7 @@ This repository is for Pytorch implementation of the paper "[IMixture of Gaussia
 This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet)
 
 <div align=center>
-<img width="460" height="305" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
+<img width="500" height="325" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
 </div>
 
 **Introduction:** 
