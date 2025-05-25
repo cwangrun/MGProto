@@ -5,7 +5,7 @@ This repository is for the paper "[IMixture of Gaussian-distributed Prototypes w
 This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet)
 
 <div align=center>
-<img width="660" height="245" src="./figures/intro.png"/></dev>
+<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
 </div>
 
 **Introduction:** 
