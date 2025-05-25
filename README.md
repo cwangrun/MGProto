@@ -61,7 +61,7 @@ where in-distribution data (a) yields high _**p**_(**x**) while out-of-distribut
 ### Visualisation results
 
 Prototypes with large prior, which dominate the decision making, are always from high-density distribution regions (in T-SNE) and can localise well the object (bird) parts.
-Background prototypes tend to have a low prior and come from the low-density distribution regions.
+Background prototypes tend to obtain a low prior and come from the low-density distribution regions.
 
 <div align=center>
 <img width="830" height="235" src="https://github.com/cwangrun/MGProto/blob/master/figure/visual.png"/></dev>
