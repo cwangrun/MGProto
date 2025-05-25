@@ -5,7 +5,7 @@ This repository is for Pytorch implementation of the paper "[IMixture of Gaussia
 This code repository was based on ProtoPNet (https://github.com/cfchen-duke/ProtoPNet)
 
 <div align=center>
-<img width="500" height="325" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
+<img width="500" height="315" src="https://github.com/cwangrun/MGProto/blob/master/figure/intro.png"/></dev>
 </div>
 
 **Introduction:** 
@@ -20,7 +20,7 @@ thereby allowing both interpretable image classification and trustworthy recogni
 Interesting, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation.
 
 <div align=center>
-<img width="660" height="245" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
+<img width="800" height="345" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
 </div>
 
 Additionally, we also present a new and generic prototype mining strategy to enhance prototype learning by mining prototypes
