@@ -11,23 +11,23 @@ This code repository was based on ProtoPNet (https://github.com/cfchen-duke/Prot
 **Introduction:** 
 Prototypical-part methods (a), such as ProtoPNet, enhance interpretability in image recognition by linking predictions to training prototypes. 
 They rely on a point-based learning of prototypes, which have limited representation power and are not suitable to detect Out-of-Distribution (OoD) inputs, 
-reducing their decision trustworthiness; 
-The point-based learning of prototypes is also unstable and often causes performance degradation in the prototype projection step. 
+reducing their decision trustworthiness. 
+The point-based learning of prototypes is also unstable and often causes performance drop in the prototype projection step. 
 In this work, we present a new generative paradigm to learn prototype distributions (b), termed as Mixture of Gaussian-distributed Prototypes (MGProto).
 
 **Methodology:** In MGProto, we leverage the Gaussian-distributed prototypes to explicitly characterise the underlying data density,
 thereby allowing both interpretable image classification and trustworthy recognition of OoD inputs. 
-Interesting, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation.
+Interestingly, the learning of our Gaussian-distributed prototypes has a natural prototype projection step, effectively addressing the performance degradation issue.
 
 <div align=center>
 <img width="830" height="350" src="https://github.com/cwangrun/MGProto/blob/master/figure/method.png"/></dev>
 </div>
 
-Additionally, we also present a new and generic prototype mining strategy to enhance prototype learning by mining prototypes
-from abundant less-salient object regions, inspired by the ancient legend of Tian Ji’s horse-racing.
+Additionally, inspired by the ancient legend of Tian Ji’s horse-racing, 
+we also present a new and generic prototype mining strategy to enhance prototype learning from abundant less-salient object regions.
 
 <div align=center>
-<img width="460" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
+<img width="470" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
@@ -49,7 +49,7 @@ from abundant less-salient object regions, inspired by the ancient legend of Tia
 
 ### Interpretation with OoD detection
 
-Online or offline evaluation for interpretable image classification and trustworthy recognition of OoD input. 
+The repository provides online or offline evaluation for interpretable image classification and trustworthy recognition of OoD input. 
 This is achieved by computing the overall data probability _**p**_(_**x**_), 
 where in-distribution data (a) has high _**p**_(**x**) while out-of-distribution input (b) has low _**p**_(**x**).
 
