@@ -27,7 +27,7 @@ Additionally, we also present a new and generic prototype mining strategy to enh
 from abundant less-salient object regions, inspired by the ancient legend of Tian Ji’s horse-racing.
 
 <div align=center>
-<img width="470" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
+<img width="460" height="380" src="https://github.com/cwangrun/MGProto/blob/master/figure/mining.png"/></dev>
 </div>
 
 
