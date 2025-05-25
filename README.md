@@ -54,7 +54,7 @@ This is achieved by computing the overall data probability _**p**_(_**x**_),
 where in-distribution data (a) has high _**p**_(**x**) while out-of-distribution input (b) has low _**p**_(**x**).
 
 <div align=center>
-<img width="830" height="275" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
+<img width="830" height="280" src="https://github.com/cwangrun/MGProto/blob/master/figure/reasoning.png"/></dev>
 </div>
 
 
